@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: bfeitoza/conversao-temperatura:v1
+          image: bfeitoza/conversao-temperatura:latest
           ports:
             - containerPort: 8080
 
